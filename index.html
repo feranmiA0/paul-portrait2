@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paul's Portrait — Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap"
+    rel="stylesheet">
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init("iywOHTfoZF9Zga4K-");</script>
+  <link rel="stylesheet" href="pp.css">
+
+</head>
+
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Paul's <span>Portrait</span></a>
+    <ul class="nav-links">
+      <li><a href="#about"><b>About</b></a></li>
+      <li><a href="#services"><b>Services</b></a></li>
+      <li><a href="#work"><b> Work</b></a></li>
+      <li><a href="#testimonials"><b>Reviews</b></a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Book a Session</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#work" class="mobile-link">Work</a>
+    <a href="#testimonials" class="mobile-link">Reviews</a>
+    <a href="#contact" class="mobile-link">Book Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Fine Art Portrait Photography</p>
+      <h1 class="hero-title">
+        Where Souls<br>Meet the <em>Light</em>
+      </h1>
+      <p class="hero-sub">Every face holds a story. Paul captures the unguarded moments — the real you, rendered in
+        light and shadow with timeless artistry.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary"><span>Book Your Session</span></a>
+        <a href="#work" class="btn-secondary">View Portfolio</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">800+</div>
+          <div class="stat-label">Portraits Taken</div>
+        </div>
+        <div>
+          <div class="stat-num">12+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="stat-num">98%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=900&q=85&auto=format&fit=crop"
+          alt="Portrait Photography" loading="eager">
+        <div class="hero-img-overlay"></div>
+        <div class="hero-img-label">Lagos, Nigeria</div>
+      </div>
+    </div>
+    <div class="hero-deco"></div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <div class="scroll-text">Scroll</div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-img-wrap reveal">
+      <div class="about-img-frame"></div>
+      <img src="pp1.jpeg" class="profile-image" alt="Paul - Portrait Photographer">
+      <div class="about-badge">
+        <div class="badge-num">12</div>
+        <div class="badge-text">Years of Art</div>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="reveal">
+        <div class="section-label">About Paul</div>
+        <h2 class="section-heading">I don't just<br>take photos — <em>I tell</em><br>your story</h2>
+      </div>
+      <div class="about-body reveal reveal-delay-2">
+        <p>Born and raised in Lagos, I fell in love with photography as a teenager when I realised that a single frame
+          could hold more truth than a thousand words. Over 12 years, I've had the privilege of photographing over 800
+          people — CEOs, newlyweds, families, creatives — each session a unique collaboration between my lens and your
+          life.</p>
+        <p>My approach is unhurried and deeply personal. I believe the camera only captures what you bring to it, so
+          every session begins long before we meet — with a conversation about who you are and what you want to
+          remember.</p>
+        <p>The result is not just a photograph. It's a heirloom.</p>
+      </div>
+      <div class="about-signature reveal reveal-delay-3">Paul Agbeja</div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services-section" id="services">
+    <div class="services-intro reveal">
+      <div class="services-intro-text">
+        <div class="section-label">What I Offer</div>
+        <h2 class="section-heading">Sessions<br>crafted for <em>you</em></h2>
+        <p class="services-intro-sub">Every service is a bespoke experience — not a product off a shelf. Choose what
+          speaks to you.</p>
+      </div>
+      <a href="#contact" class="btn-primary"><span>Get a Custom Quote</span></a>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <h3 class="service-title">Portrait Sessions</h3>
+        <p class="service-desc">A focused, intimate session designed to reveal the real you — whether for personal
+          branding, social presence, or pure self-expression.</p>
+        <ul class="service-list">
+          <li>2-hour studio or location session</li>
+          <li>Full wardrobe consultation</li>
+          <li>25 fully edited digital images</li>
+          <li>Private online gallery</li>
+        </ul>
+        <div class="service-price">₦150,000 <span>/ session</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">02</div>
+        <h3 class="service-title">Family & Lifestyle</h3>
+        <p class="service-desc">Timeless family portraits and lifestyle imagery that captures your family as they truly
+          are — warm, real, and full of life.</p>
+        <ul class="service-list">
+          <li>3-hour outdoor or studio session</li>
+          <li>Up to 6 family members</li>
+          <li>40 fully edited digital images</li>
+          <li>Premium print options available</li>
+        </ul>
+        <div class="service-price">₦200,000 <span>/ session</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">03</div>
+        <h3 class="service-title">Brand & Executive</h3>
+        <p class="service-desc">Your image is your first impression. Premium corporate and personal brand photography
+          that commands presence and builds trust.</p>
+        <ul class="service-list">
+          <li>Half or full-day shoot</li>
+          <li>Brand identity consultation</li>
+          <li>60+ edited images</li>
+          <li>Commercial usage rights</li>
+        </ul>
+        <div class="service-price">₦350,000 <span>/ session</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="work">
+    <div class="gallery-header reveal">
+      <div>
+        <div class="section-label">Selected Work</div>
+        <h2 class="section-heading" style="color:var(--warm-white)">Moments that<br><em>last forever</em></h2>
+      </div>
+      <a href="#contact" class="view-all-link">See Full Portfolio</a>
+    </div>
+    <div class="gallery-strip">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Fine Art Portrait</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Lifestyle Session</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Executive Portrait</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Editorial Fashion</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Brand Photography</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500&q=80&auto=format&fit=crop"
+          alt="Portrait">
+        <div class="gallery-item-overlay"><span class="gallery-item-label">Family Lifestyle</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials-header">
+      <div class="section-label">Client Stories</div>
+      <h2 class="section-heading">What they <em>say</em></h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+        </div>
+        <p class="testimonial-text">Paul has a rare gift. He made me feel completely at ease and the photos look like
+          they belong in a gallery. My LinkedIn headshot now gets comments every single day. Worth every naira.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div>
+            <div class="author-name">Adaeze Okonkwo</div>
+            <div class="author-role">Chief Marketing Officer, Lagos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+        </div>
+        <p class="testimonial-text">Our family portraits are now framed on every wall in our home. Paul captured
+          something I can't even describe — the way he sees light, the way he directs you... it's truly an art form.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">K</div>
+          <div>
+            <div class="author-name">Kemi & Tunde Fashola</div>
+            <div class="author-role">Family Session, Ikoyi</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+          <svg class="star" viewBox="0 0 12 12">
+            <polygon points="6,0 7.8,4.2 12,4.6 8.8,7.5 9.8,12 6,9.6 2.2,12 3.2,7.5 0,4.6 4.2,4.2" />
+          </svg>
+        </div>
+        <p class="testimonial-text">I was nervous about being photographed — I always am. But Paul's calm, intentional
+          approach turned the whole thing into an experience I genuinely enjoyed. The results were extraordinary.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">C</div>
+          <div>
+            <div class="author-name">Chisom Eze</div>
+            <div class="author-role">Founder, Creative Director</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trust-bar">
+      <div class="trust-item reveal">
+        <div class="trust-num">800+</div>
+        <div class="trust-label">Happy Clients</div>
+      </div>
+      <div class="trust-item reveal reveal-delay-1">
+        <div class="trust-num">12</div>
+        <div class="trust-label">Years in Business</div>
+      </div>
+      <div class="trust-item reveal reveal-delay-2">
+        <div class="trust-num">100%</div>
+        <div class="trust-label">Money-Back Guarantee</div>
+      </div>
+      <div class="trust-item reveal reveal-delay-3">
+        <div class="trust-num">5★</div>
+        <div class="trust-label">Average Rating</div>
+      </div>
+    </div>
+  </section>
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+    </div>
+  </div>
+  <!-- PROCESS -->
+  <section class="process-section">
+    <div class="process-header reveal">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-heading">Simple,<br><em>stress-free</em><br>from start to finish</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">I</div>
+        <h3 class="step-title">Discovery Call</h3>
+        <p class="step-desc">We start with a free 20-minute call to understand your vision, goals, and what makes you
+          uniquely you.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-num">II</div>
+        <h3 class="step-title">Preparation</h3>
+        <p class="step-desc">I send a detailed session guide covering wardrobe, location, timing, and everything you
+          need to feel confident.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-num">III</div>
+        <h3 class="step-title">The Session</h3>
+        <p class="step-desc">A relaxed, guided shoot where my only job is to make you look and feel extraordinary. No
+          awkward posing.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-num">IV</div>
+        <h3 class="step-title">Delivery</h3>
+        <p class="step-desc">Your fully edited images are delivered within 7–10 days via a private gallery. Print
+          upgrades available.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="contact-bg-text">Paul</div>
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <div class="section-label">Book a Session</div>
+        <h2 class="section-heading">Let's create<br>something <em>beautiful</em></h2>
+        <p class="contact-sub">Sessions fill up quickly. Reach out today to check availability and reserve your date. A
+          small deposit secures your booking.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">paul@paulsportrait.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">☏</div>
+            <div>
+              <div class="contact-item-label">WhatsApp</div>
+              <div class="contact-item-value">+234 801 234 5678</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">◎</div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Victoria Island, Lagos, Nigeria</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" name="first_name" placeholder="Amara">
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" name="last_name" placeholder="Okafor">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="amara@email.com">
+        </div>
+        <div class="form-group">
+          <label>Phone / WhatsApp</label>
+          <input type="tel" name="phone" placeholder="+234 800 000 0000">
+        </div>
+        <div class="form-group">
+          <label>Session Type</label>
+          <select name="session_type">
+            <option value="" disabled selected>Select a session</option>
+            <option>Portrait Session — ₦150,000</option>
+            <option>Family & Lifestyle — ₦200,000</option>
+            <option>Brand & Executive — ₦350,000</option>
+            <option>Custom / Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell me about your vision</label>
+          <textarea name="message"
+            placeholder="What do you want to walk away with? Any ideas, references, or special requests..."></textarea>
+        </div>
+        <button class="btn-submit" onclick="handleSubmit(this)">Send Enquiry</button>
+      </div>
+    </div>
+  </section>
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Fine Art Portraits <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Brand & Executive <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Family & Lifestyle <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Couples & Engagement <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Editorial & Fashion <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Lagos — Nigeria <span class="marquee-dot"></span></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Paul's <span>Portrait</span></div>
+        <p class="footer-tagline">Fine art portrait photography in Lagos, Nigeria. Documenting lives, one frame at a
+          time.</p>
+        <div class="footer-socials">
+          <a class="social-link" href="#" title="Instagram">IG</a>
+          <a class="social-link" href="#" title="Facebook">FB</a>
+          <a class="social-link" href="#" title="WhatsApp">WA</a>
+          <a class="social-link" href="#" title="LinkedIn">in</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigate</div>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Paul</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <ul class="footer-links">
+          <li><a href="#contact">Portrait Sessions</a></li>
+          <li><a href="#contact">Family & Lifestyle</a></li>
+          <li><a href="#contact">Brand & Executive</a></li>
+          <li><a href="#contact">Couples & Engagement</a></li>
+          <li><a href="#contact">Editorial</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <ul class="footer-links">
+          <li><a href="mailto:paul@paulsportrait.com">paul@paulsportrait.com</a></li>
+          <li><a href="#">+234 801 234 5678</a></li>
+          <li><a href="#">Victoria Island, Lagos</a></li>
+          <li><a href="#contact">Book a Session</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Paul's Portrait. All rights reserved.</div>
+      <div class="footer-credit">Crafted with care in Lagos, Nigeria</div>
+    </div>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.getElementById('cursor');
+    const cursorRing = document.getElementById('cursorRing');
+    let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursor.style.left = mouseX + 'px';
+      cursor.style.top = mouseY + 'px';
+    });
+
+    function lerp(a, b, t) { return a + (b - a) * t; }
+    function animateRing() {
+      ringX = lerp(ringX, mouseX, 0.12);
+      ringY = lerp(ringY, mouseY, 0.12);
+      cursorRing.style.left = ringX + 'px';
+      cursorRing.style.top = ringY + 'px';
+      requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    document.querySelectorAll('a, button, .service-card, .gallery-item').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.style.width = '16px';
+        cursor.style.height = '16px';
+        cursorRing.style.width = '52px';
+        cursorRing.style.height = '52px';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursor.style.width = '8px';
+        cursor.style.height = '8px';
+        cursorRing.style.width = '36px';
+        cursorRing.style.height = '36px';
+      });
+    });
+
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileClose = document.getElementById('mobileClose');
+    hamburger.addEventListener('click', () => { mobileMenu.style.display = 'flex'; setTimeout(() => mobileMenu.classList.add('open'), 10); });
+    mobileClose.addEventListener('click', () => { mobileMenu.classList.remove('open'); setTimeout(() => mobileMenu.style.display = 'none', 400); });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => { mobileMenu.classList.remove('open'); setTimeout(() => mobileMenu.style.display = 'none', 400); });
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+
+    // Form submit — EmailJS + WhatsApp
+    function handleSubmit(btn) {
+      const first_name = document.querySelector('[name="first_name"]').value.trim();
+      const last_name = document.querySelector('[name="last_name"]').value.trim();
+      const email = document.querySelector('[name="email"]').value.trim();
+      const phone = document.querySelector('[name="phone"]').value.trim();
+      const session = document.querySelector('[name="session_type"]').value;
+      const message = document.querySelector('[name="message"]').value.trim();
+
+      // Basic validation
+      if (!first_name || !email || !session) {
+        btn.textContent = '⚠ Please fill required fields';
+        btn.style.background = '#e53e3e';
+        btn.style.color = '#fff';
+        setTimeout(() => {
+          btn.textContent = 'Send Enquiry';
+          btn.style.background = '';
+          btn.style.color = '';
+          btn.disabled = false;
+        }, 2500);
+        return;
+      }
+
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      const params = { first_name, last_name, email, phone, session, message };
+
+      // 1. Send email via EmailJS
+      emailjs.send("service_f9mg87h", "template_7ia2jw9", params)
+        .then(() => {
+          btn.textContent = '✓ Sent! Opening WhatsApp...';
+          btn.style.background = '#4CAF50';
+          btn.style.color = '#fff';
+
+          // 2. Open WhatsApp after email succeeds
+          const text = `Hello Paul! I'd like to book a session.%0A%0A*Name:* ${first_name} ${last_name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Session:* ${session}%0A*Message:* ${message}`;
+          setTimeout(() => {
+            window.open(`https://wa.me/2349136997793?text=${text}`, '_blank');
+          }, 1000);
+        })
+        .catch(() => {
+          btn.textContent = '✗ Failed — Try Again';
+          btn.style.background = '#e53e3e';
+          btn.style.color = '#fff';
+          btn.disabled = false;
+        });
+    }
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
